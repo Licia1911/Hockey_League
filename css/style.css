@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: lighter;
 }
 
@@ -60,7 +60,6 @@ a {
     width: 150px;
     margin-top: 20px;
     position: absolute;
-
 }
 
 .date, .about, .contact{
@@ -85,3 +84,66 @@ article, .about{
     margin-bottom: 15px;
     font-size:20px;
 }
+
+.rules_title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rules_text, .rules_list, .rules_li {
+    margin: 50px 20px;
+}
+
+.title_text {
+    margin-bottom: 20px;
+}
+
+.field_li{
+    margin: 20px;
+    list-style-type: lower-latin;
+}
+
+.all_play{
+    margin-top: 10px;
+}
+
+caption {
+    margin: 50px 0px 50px;
+    width: 100%;
+}
+
+table {
+    margin-left: 400px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 2rem;
+    margin: 2rem;
+    border: 2px solid black;
+}
+
+td {
+    padding: 1rem;
+    margin: 0rem;
+    border: 2px solid black;
+}
+
+.info_text {
+    margin: 30px 0px 10px 400px;
+    font-size: 18px;
+}
+
+.info_contact{
+    position: absolute;
+    margin-top: 15px;
+}
+
+.info_contact > p {
+    display: inline;
+    align-items: center;
+}
+
+
+
