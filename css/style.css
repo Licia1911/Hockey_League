@@ -104,7 +104,17 @@ article, .about{
 }
 
 .all_play{
-    margin-top: 10px;
+    margin: 10px 0px 10px 10px;
+    font-size: 18px;
+}
+
+.play_text {
+    margin-left: 20px;
+}
+
+.play {
+    margin: 20px 40px;
+    list-style-type: circle;
 }
 
 caption {
@@ -143,6 +153,124 @@ td {
 .info_contact > p {
     display: inline;
     align-items: center;
+}
+
+.container_maps {
+    margin-top: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps_title {
+    margin-bottom: 2rem;
+}
+
+.maps {
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin-bottom: 2rem;
+}
+
+.title_form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.reg_form {
+    margin-left: 280px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+input{
+    border: none;
+    outline:  none;
+    border-bottom:solid 1px black;
+    width: 390px;
+    margin-bottom: 10px;
+}
+
+.address {
+    width: 910px;
+} 
+
+.city, zip_code {
+    width: 530px;
+}
+
+.birth {
+    width: 300px;
+}
+
+.gender {
+    width: 50px;
+}
+
+.grade {
+    width: 30px;
+}
+
+.school {
+    margin-left: 280px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+label {
+    width:  450px;
+}
+
+.live_school {
+    width: 30px;
+}
+
+.position {
+    margin-left: 280px;
+    border: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.play_position {
+    width: 30px;
+}
+
+.uniform {
+    margin-left: 280px;
+    border: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.uniform_size {
+    width: 30px;
+}
+
+.text {
+    margin-left: 280px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-left: 280px;
+    border-bottom: none;
+    border: 1px solid black;
 }
 
 
